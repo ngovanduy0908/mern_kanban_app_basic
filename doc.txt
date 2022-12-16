@@ -1,0 +1,28 @@
+1. Về phần cài đặt cấu trúc của code
+    - Thứ nhất là dùng yarn để cài đặt ứng dụng
+    - Về frontend: yarn create react-app client
+    - Về server: yarn add express-generator server --no-view
+2. Về các thư viện, các package ta cần sử dụng: 
+    - Bên frontend: 
+        + cors, 
+        + crypto-js, 
+        + material-ui, 
+        + jsonwebtoken,
+        + schema, option schema
+        + react-router-dom: Outlet -> thằng này ảo ma phết
+    - Bên backend: 
+        + express-js,
+        + express-validator,
+        + mongoose,
+        + nodemon
+3. Cơ cấu tổ chức code:
+    -Bên frontend:
+    -Bên backend:
+        + Có controllers:
+            Thằng này làm cái nhiệm vụ call đến model
+        + Có handlers: 
+            Thằng này xử lý các thứ như là token, validate
+        + Có models:
+            Nó là những cái schema
+        + Có routes:
+            Nó là cái thằng điều hướng 
